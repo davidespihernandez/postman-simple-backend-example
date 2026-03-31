@@ -1,0 +1,25 @@
+{
+  "name": "postman-simple-backend-example",
+  "version": "1.0.0",
+  "description": "Simple in-memory Express CRUD API for customers.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "echo \"No tests configured\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidespihernandez/postman-simple-backend-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/davidespihernandez/postman-simple-backend-example/issues"
+  },
+  "homepage": "https://github.com/davidespihernandez/postman-simple-backend-example#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
